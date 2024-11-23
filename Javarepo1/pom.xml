@@ -13,6 +13,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AWSCodeDeployDemo</name>
 	<description>Demo project for Spring Boot</description>
+	<!-- Add the packaging element here -->
+    	<packaging>war</packaging> <!-- Change to 'war' if you need a WAR file, otherwise keep 'jar' -->
 	<properties>
 		<java.version>11</java.version>
 	</properties>
